@@ -12,9 +12,9 @@ import App from './App.jsx'
 // console.log(2222);
 // console.log(otherHader);
 createRoot(document.getElementById('root')).render(
- <strictMode>
-   <BrowserRouter>
-    <App />
-   </BrowserRouter>
-   </strictMode>
+  <StrictMode>
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  </StrictMode>
 )

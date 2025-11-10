@@ -9,7 +9,6 @@ function App() {
   const [count, setCount] = useState(0)
 const element = <h1>Hello, Mahesh!</h1>;
   return <>
-    <Menu/>
     <AppRoutes/>
   </>
 }
